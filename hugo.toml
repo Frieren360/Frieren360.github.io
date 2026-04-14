@@ -1,0 +1,9 @@
+baseURL = 'https://frieren360.github.io'
+languageCode = 'en-gb'
+title = "Frieren360's Site"
+theme = 'hugo-theme-stack'
+
+[outputs]
+  home = ["HTML", "JSON"]
+  page = ["HTML"]
+  section = ["HTML"]
