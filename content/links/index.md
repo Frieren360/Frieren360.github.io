@@ -6,7 +6,7 @@ title = 'Links'
 title = "Hugo"
 website = "https://gohugo.io"
 description = "Official Hugo site"
-image = "hugo-logo.png"
+image = "hugo.svg"
 alt = "Hugo logo"
 
 [[params.links]]
