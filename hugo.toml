@@ -7,3 +7,10 @@ theme = 'hugo-theme-stack'
   home = ["HTML", "JSON"]
   page = ["HTML"]
   section = ["HTML"]
+
+[params]
+  [params.sidebar]
+    [params.sidebar.avatar]
+    enabled = true
+    local = true
+    src = "img/avatar.jpg"
