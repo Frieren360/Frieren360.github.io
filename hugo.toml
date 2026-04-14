@@ -14,3 +14,12 @@ theme = 'hugo-theme-stack'
     enabled = true
     local = true
     src = "img/avatar.jpg"
+  [params.widgets]
+    [[params.widgets.homepage]]
+    type = "search"
+    [[params.widgets.homepage]]
+    type = "archives"
+    [params.widgets.homepage.params]
+    limit = 5
+    [[params.widgets.homepage]]
+    type = "categories"
