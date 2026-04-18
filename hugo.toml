@@ -23,3 +23,5 @@ theme = 'hugo-theme-stack'
     limit = 5
     [[params.widgets.homepage]]
     type = "categories"
+    [[params.widgets.homepage]]
+    type = "tag-cloud"
