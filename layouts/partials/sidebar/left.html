@@ -16,7 +16,7 @@
                     {{ $avatar := resources.Get (.src) }}
                     
                     {{ if $avatar }}
-                        {{ $avatarResized := $avatar.Resize "lossy 200x jpeg q40" }}
+                        {{ $avatarResized := $avatar.Resize "lossy 250x jpeg q40" }}
                         <img src="{{ $avatarResized.RelPermalink }}" width="{{ $avatarResized.Width }}"
                             height="{{ $avatarResized.Height }}" class="site-logo" loading="lazy" alt="Avatar">
                     {{ else }}
