@@ -23,6 +23,13 @@ description = "Card-style theme for Hugo"
 image = "stack-theme.svg"
 alt = "Hugo Stack Theme Icon"
 
+[[params.links]]
+title = "Privacy Raccoon"
+website = "https://an_g6.codeberg.page/"
+description = "Digital self-defense against mass surveillance"
+image = "privacyraccoon.svg"
+alt = "Privacy Raccoon logo"
+
 [menu.main]
 name = "Links"
 weight = -90
