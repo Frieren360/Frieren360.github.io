@@ -11,7 +11,7 @@
                     {{- $Height := $imageRaw.Height -}}
 
                     {{- if .context.Site.Params.imageProcessing.cover.enabled -}}
-                        {{- $thumbnail := $imageRaw.Fill (printf "%s q30" .size) -}}
+                        {{- $thumbnail := $imageRaw.Fill (printf "%s jpeg q40" .size) -}}
                         {{- $Permalink = $thumbnail.RelPermalink -}}
                         {{- $Width = $thumbnail.Width -}}
                         {{- $Height = $thumbnail.Height -}}

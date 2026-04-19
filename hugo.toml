@@ -7,7 +7,7 @@ theme = 'hugo-theme-stack'
   home = ["HTML", "JSON"]
   page = ["HTML"]
   section = ["HTML"]
-
+  
 [params]
   [params.sidebar]
     [params.sidebar.avatar]

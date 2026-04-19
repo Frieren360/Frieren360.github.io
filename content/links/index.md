@@ -10,8 +10,15 @@ image = "hugo.svg"
 alt = "Hugo logo"
 
 [[params.links]]
+title = "Hugo Stack Theme"
+website = "https://stack.cai.im/"
+description = "Card-style theme for Hugo"
+image = "stack-theme.svg"
+alt = "Hugo Stack Theme Icon"
+
+[[params.links]]
 title = "GitHub"
-website = "https://github.com"
+website = "https://github.com/Frieren360"
 description = "Code hosting platform"
 image = "github-logo.svg"
 alt = "GitHub logo"

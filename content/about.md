@@ -5,4 +5,4 @@ title = 'About'
 name = "About"
 weight = -80
 +++
-I am a DevOps engineer from the UK.
+I am a DevOps/IT student from the UK.
