@@ -25,3 +25,7 @@ theme = 'hugo-theme-stack'
     type = "categories"
     [[params.widgets.homepage]]
     type = "tag-cloud"
+  [params.imageProcessing]
+    [params.imageProcessing.cover]
+    enabled = true
+    size = "100x100"
