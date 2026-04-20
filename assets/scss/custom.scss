@@ -7,18 +7,17 @@
 }
 
 .section-card {
-    // Override to a single value so calc() works reliably on all screen sizes
     --small-card-padding: clamp(0.9rem, 3vw, 1.6rem);
+    position: relative; // needed for absolute child
+    padding-right: calc(18% + var(--small-card-padding));
 
     .section-image {
-        margin-top: calc(-1 * var(--small-card-padding));
-        margin-bottom: calc(-1 * var(--small-card-padding));
-        margin-right: calc(-1 * var(--small-card-padding));
-        margin-left: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
 
-        width: clamp(20%, 25vw, 30%);
-        align-self: stretch;
-        flex-shrink: 0;
+        width: clamp(15%, calc(5vw + 9%), 20%);
         overflow: hidden;
 
         img {
