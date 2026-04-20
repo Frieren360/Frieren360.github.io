@@ -7,21 +7,22 @@
 }
 
 .section-card {
+    // Override to a single value so calc() works reliably on all screen sizes
+    --small-card-padding: clamp(0.9rem, 3vw, 1.6rem);
+
     .section-image {
-        // Pull image flush against card edges on all sides except left
         margin-top: calc(-1 * var(--small-card-padding));
         margin-bottom: calc(-1 * var(--small-card-padding));
         margin-right: calc(-1 * var(--small-card-padding));
         margin-left: 0;
 
-        // Responsive width: wider on mobile, narrower on desktop
         width: clamp(20%, 25vw, 30%);
         align-self: stretch;
-        flex-shrink: 0; // Prevent image from shrinking when text is long
-        overflow: hidden; // Clip anything that bleeds outside
+        flex-shrink: 0;
+        overflow: hidden;
 
         img {
-            display: block; // Removes inline gap below image
+            display: block;
             border-top-right-radius: var(--card-border-radius);
             border-bottom-right-radius: var(--card-border-radius);
             height: 100%;
