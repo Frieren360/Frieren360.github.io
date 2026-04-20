@@ -8,19 +8,25 @@
 
 .section-card {
     .section-image {
+        // Use fluid margins and width that are based on viewport size
         margin-top: calc(-1 * var(--small-card-padding));
         margin-bottom: calc(-1 * var(--small-card-padding));
         margin-right: calc(-1 * var(--small-card-padding));
+
+        // Make the image width relative to the viewport width (vw)
         width: 12vw;
 
         img {
             float: right;
             border-top-right-radius: var(--card-border-radius);
             border-bottom-right-radius: var(--card-border-radius);
-            height: 100px;
+
+            // Use percentage for height to maintain aspect ratio
+            height: 100%;
             width: 100%;
             display: block;
             object-fit: cover;
         }
     }
 }
+
