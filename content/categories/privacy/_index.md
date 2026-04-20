@@ -1,0 +1,7 @@
+---
+title: "Privacy"
+image: tia.png
+style:
+    background: "#2a9d8f"
+    color: "#fff"
+---

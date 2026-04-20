@@ -1,0 +1,26 @@
+.sidebar header {
+    .site-avatar {
+        .site-logo {
+            border-radius: 10%;
+        }
+    }
+}
+
+.section-card {
+    .section-image {
+        margin-top: calc(-1 * var(--small-card-padding));
+        margin-bottom: calc(-1 * var(--small-card-padding));
+        margin-right: calc(-1 * var(--small-card-padding));
+        width: 20%;
+
+        img {
+            float: right;
+            border-top-right-radius: var(--card-border-radius);
+            border-bottom-right-radius: var(--card-border-radius);
+            height: 100px;
+            width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+    }
+}
