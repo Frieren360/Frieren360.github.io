@@ -7,7 +7,7 @@
 }
 
 .section-card {
-    --small-card-padding: clamp(0.9rem, 3vw, 1.6rem);
+    --small-card-padding: clamp(0.9rem, 3vw, 2.353rem);
     position: relative; // needed for absolute child
     padding-right: calc(18% + var(--small-card-padding));
 
@@ -17,7 +17,7 @@
         right: 0;
         bottom: 0;
 
-        width: clamp(15%, calc(5vw + 9%), 20%);
+        width: clamp(15%, calc(5vw + 20%), 21%);
         overflow: hidden;
 
         img {
@@ -88,4 +88,18 @@
 // Show menu when checked
 #menu-toggle-state:checked ~ ol#main-menu {
     display: flex;
+}
+
+.article-page {
+    .main-article {
+        .article-content {
+            h1 {
+                img {
+                    height: 1.36em;
+                    vertical-align: -0.3em;
+                    width: auto;
+                }
+            }
+        }
+    }
 }
