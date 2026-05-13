@@ -29,3 +29,5 @@ theme = 'hugo-theme-stack'
     [params.imageProcessing.cover]
     enabled = true
     size = "100x100"
+  [params.article]
+  toc = true

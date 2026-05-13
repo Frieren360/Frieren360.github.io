@@ -1,3 +1,11 @@
+:root {
+    --code-font-family: Menlo, Monaco, Consolas, var(--zh-font-family), monospace;
+}
+
+[data-scheme="light"] {
+    --pre-background-color: #272822;
+}
+
 .sidebar header {
     .site-avatar {
         .site-logo {
@@ -29,6 +37,24 @@
             object-fit: cover;
             margin: 0;
             padding: 0;
+        }
+    }
+}
+
+.article-page {
+    .main-article {
+        .article-content {
+            h1 {
+                font-size: 1.7em;
+                img {
+                    height: 1.36em;
+                    vertical-align: -0.3em;
+                    width: auto;
+                }
+            }
+            .highlight + .highlight {
+                margin-top: 1em; 
+            }
         }
     }
 }
@@ -88,18 +114,4 @@
 // Show menu when checked
 #menu-toggle-state:checked ~ ol#main-menu {
     display: flex;
-}
-
-.article-page {
-    .main-article {
-        .article-content {
-            h1 {
-                img {
-                    height: 1.36em;
-                    vertical-align: -0.3em;
-                    width: auto;
-                }
-            }
-        }
-    }
 }
